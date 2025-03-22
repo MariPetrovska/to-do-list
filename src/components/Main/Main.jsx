@@ -9,7 +9,7 @@ function Main() {
 
     useEffect(() => {
         const storedTasks = JSON.parse(localStorage.getItem("tasks"));
-        if(storedTasks) {
+        if(storedTasks && storedTasks.length > 0) {
             setTasks(storedTasks);
         }
     }, []);
