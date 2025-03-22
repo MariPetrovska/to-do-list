@@ -1,0 +1,45 @@
+h1 {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.wrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.todoInput {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 300px;
+    color: #fff;
+}
+
+.todoInput::placeholder {
+    color: #ffffff4d;
+}
+
+.todoBtn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.formDate {
+    color: #ffffff4d;
+    font-style: italic;
+}

@@ -1,0 +1,73 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c5ce7;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox:checked {
+    background: none;
+    border: 2px solid #ffffff;
+}
+
+.checkbox:checked::after {
+    content: '\2713';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.text {
+    flex: 1;
+}
+
+.completedText {
+    flex: 1;
+    text-decoration: line-through;
+    color: #b3b3b3;
+}
+
+.text {
+    color: white;
+}
+
+.inputEdit {
+    outline: none;
+    box-sizing: border-box;
+    background: none;
+    border: 2px solid #b4b0be;
+    padding: 5px;
+    width: 300px;
+    color: #fff;
+}
+
+.btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 15px;
+}
